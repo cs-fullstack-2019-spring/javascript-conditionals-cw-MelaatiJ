@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Exercise 10</h1>
+<script>
+    var card1 = prompt("Pick a card from the deck");
+    card1 = parseInt(card1);
+    var card2 = prompt("Pick a card from the deck");
+    card2 = parseInt(card2)
+    var card3 = prompt("Pick a card from the deck");
+    card3 = parseInt(card3)
+     var total = (card1 + card2 + card3);
+    if((total) === 21)
+    {
+        console.log("BLACKJACK!");
+    }
+    else if((total) > 21)
+    {
+        console.log("BUST!");
+    }
+    else if((total) < 21)
+    {
+        console.log("The total is " + total);
+    }
+
+</script>
+
+</body>
+</html>
